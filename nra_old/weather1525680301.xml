@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel modelBaseVersion="1.0"
+                xmlns="http://datex2.eu/schema/1_0/1_0"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0 http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="MeasuredDataPublication" lang="eng">
+  <publicationTime>2018-04-30T14:02:02+01:00</publicationTime>
+  <publicationCreator>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </publicationCreator>
+  <measurementSiteTableReference>WeatherSites</measurementSiteTableReference>
+  <headerInformation>
+   <confidentiality>noRestriction</confidentiality>
+   <informationStatus>real</informationStatus>
+  </headerInformation>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA10810</measurementSiteReference>
+   <measurementTimeDefault>2018-04-30T07:50:00+01:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.7</airTemperature>
+      <dewPointTemperature>3.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>18</maximumWindSpeed>
+      <windDirectionBearing>302</windDirectionBearing>
+      <windDirectionCompass>westNorthWest</windDirectionCompass>
+      <windSpeed>7.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>7.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11139</measurementSiteReference>
+   <measurementTimeDefault>2018-04-30T12:50:00+01:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>12.9</airTemperature>
+      <dewPointTemperature>4.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>22.3</maximumWindSpeed>
+      <windDirectionBearing>275</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>11.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>27.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11427</measurementSiteReference>
+   <measuremen

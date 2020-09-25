@@ -1,0 +1,3650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel modelBaseVersion="1.0"
+                xmlns="http://datex2.eu/schema/1_0/1_0"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0 http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="MeasuredDataPublication" lang="eng">
+  <publicationTime>2018-01-30T22:24:22+00:00</publicationTime>
+  <publicationCreator>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </publicationCreator>
+  <measurementSiteTableReference>WeatherSites</measurementSiteTableReference>
+  <headerInformation>
+   <confidentiality>noRestriction</confidentiality>
+   <informationStatus>real</informationStatus>
+  </headerInformation>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA10810</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T16:50:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6</airTemperature>
+      <dewPointTemperature>2.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14.8</maximumWindSpeed>
+      <windDirectionBearing>13</windDirectionBearing>
+      <windDirectionCompass>northNorthEast</windDirectionCompass>
+      <windSpeed>4.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>6.2</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11139</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.8</airTemperature>
+      <dewPointTemperature>7.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>38.5</maximumWindSpeed>
+      <windDirectionBearing>244</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>19.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>7.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11427</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>5.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>32</maximumWindSpeed>
+      <windDirectionBearing>230</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>16.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>6.2</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11428</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6</airTemperature>
+      <dewPointTemperature>4.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>41.8</maximumWindSpeed>
+      <windDirectionBearing>211</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>24.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11429</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>37.1</maximumWindSpeed>
+      <windDirectionBearing>254</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>23.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA11434</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>5.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>35.3</maximumWindSpeed>
+      <windDirectionBearing>243</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>23.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>6.2</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1681</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.6</airTemperature>
+      <dewPointTemperature>5.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.9</maximumWindSpeed>
+      <windDirectionBearing>216</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>8.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1682</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.2</airTemperature>
+      <dewPointTemperature>5.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>23.8</maximumWindSpeed>
+      <windDirectionBearing>241</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1683</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>5.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>22</maximumWindSpeed>
+      <windDirectionBearing>256</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>7.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1684</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.1</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>32.8</maximumWindSpeed>
+      <windDirectionBearing>219</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>14.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1685</measurementSiteReference>
+   <measurementTimeDefault>2014-11-11T20:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.9</airTemperature>
+      <dewPointTemperature>6.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>2.2</maximumWindSpeed>
+      <windDirectionBearing>120</windDirectionBearing>
+      <windDirectionCompass>eastSouthEast</windDirectionCompass>
+      <windSpeed>1.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1686</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.4</airTemperature>
+      <dewPointTemperature>5.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>9.7</maximumWindSpeed>
+      <windDirectionBearing>224</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>8.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1687</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>4.8</airTemperature>
+      <dewPointTemperature>3.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>36</maximumWindSpeed>
+      <windDirectionBearing>268</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>19.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1688</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.4</airTemperature>
+      <dewPointTemperature>6.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>28.4</maximumWindSpeed>
+      <windDirectionBearing>265</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>18.7</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1689</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>5.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>13</maximumWindSpeed>
+      <windDirectionBearing>225</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>8.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1727</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.2</airTemperature>
+      <dewPointTemperature>4.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1728</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>27.7</maximumWindSpeed>
+      <windDirectionBearing>209</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>11.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1729</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>5.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.2</maximumWindSpeed>
+      <windDirectionBearing>215</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>9.7</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1730</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.1</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.6</maximumWindSpeed>
+      <windDirectionBearing>251</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>15.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1732</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.6</airTemperature>
+      <dewPointTemperature>5.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>7.6</maximumWindSpeed>
+      <windDirectionBearing>157</windDirectionBearing>
+      <windDirectionCompass>southSouthEast</windDirectionCompass>
+      <windSpeed>2.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>4.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1733</measurementSiteReference>
+   <measurementTimeDefault>2016-01-29T08:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>11.3</airTemperature>
+      <dewPointTemperature>8.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.2</maximumWindSpeed>
+      <windDirectionBearing>212</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>9.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>9.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1734</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.7</airTemperature>
+      <dewPointTemperature>6.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>11.5</maximumWindSpeed>
+      <windDirectionBearing>222</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>9.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>7.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1735</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.6</airTemperature>
+      <dewPointTemperature>6.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>13.7</maximumWindSpeed>
+      <windDirectionBearing>223</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>4.7</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1736</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.6</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>32</maximumWindSpeed>
+      <windDirectionBearing>237</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>20.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>6.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1737</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>20.2</maximumWindSpeed>
+      <windDirectionBearing>202</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>11.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>6.2</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1738</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.2</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>35.6</maximumWindSpeed>
+      <windDirectionBearing>251</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>17.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1739</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>16.2</maximumWindSpeed>
+      <windDirectionBearing>200</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>15.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1741</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.6</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>27.7</maximumWindSpeed>
+      <windDirectionBearing>256</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>17.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1742</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.6</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14.8</maximumWindSpeed>
+      <windDirectionBearing>202</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>9.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1743</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>5.8</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>37.4</maximumWindSpeed>
+      <windDirectionBearing>295</windDirectionBearing>
+      <windDirectionCompass>westNorthWest</windDirectionCompass>
+      <windSpeed>30.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1744</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.7</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>21.2</maximumWindSpeed>
+      <windDirectionBearing>227</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>12.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1745</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8</airTemperature>
+      <dewPointTemperature>6.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>17.6</maximumWindSpeed>
+      <windDirectionBearing>284</windDirectionBearing>
+      <windDirectionCompass>westNorthWest</windDirectionCompass>
+      <windSpeed>7.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1746</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8</airTemperature>
+      <dewPointTemperature>6.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>23</maximumWindSpeed>
+      <windDirectionBearing>250</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>9.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>7.2</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1747</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.2</airTemperature>
+      <dewPointTemperature>7.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>10.8</maximumWindSpeed>
+      <windDirectionBearing>274</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>4.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>7.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1748</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.3</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>22</maximumWindSpeed>
+      <windDirectionBearing>217</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>17.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1749</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.7</airTemperature>
+      <dewPointTemperature>5.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>17.6</maximumWindSpeed>
+      <windDirectionBearing>241</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>16.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.8</protectionTemperature>
+      <roadSurfaceTemperature>5.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1750</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>4.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>46.4</maximumWindSpeed>
+      <windDirectionBearing>240</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>19.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1751</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T21:50:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>5.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1752</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.4</airTemperature>
+      <dewPointTemperature>4.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>24.1</maximumWindSpeed>
+      <windDirectionBearing>256</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>10.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>4.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1753</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>4.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>22.7</maximumWindSpeed>
+      <windDirectionBearing>265</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>6.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1755</measurementSiteReference>
+   <measurementTimeDefault>2017-11-28T13:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>2.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>7.2</maximumWindSpeed>
+      <windDirectionBearing>328</windDirectionBearing>
+      <windDirectionCompass>northNorthWest</windDirectionCompass>
+      <windSpeed>6.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-3.4</protectionTemperature>
+      <roadSurfaceTemperature>3.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1756</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.4</airTemperature>
+      <dewPointTemperature>4.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>24.8</maximumWindSpeed>
+      <windDirectionBearing>275</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>19.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1758</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.2</airTemperature>
+      <dewPointTemperature>4.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>13.7</maximumWindSpeed>
+      <windDirectionBearing>237</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>7.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1760</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.2</airTemperature>
+      <dewPointTemperature>5.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>34.2</maximumWindSpeed>
+      <windDirectionBearing>240</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>18.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1762</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.9</airTemperature>
+      <dewPointTemperature>5.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>11.9</maximumWindSpeed>
+      <windDirectionBearing>0</windDirectionBearing>
+      <windDirectionCompass>north</windDirectionCompass>
+      <windSpeed>6.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1763</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.2</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>21.2</maximumWindSpeed>
+      <windDirectionBearing>219</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>20.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1764</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:00:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.1</airTemperature>
+      <dewPointTemperature>6.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>12.2</maximumWindSpeed>
+      <windDirectionBearing>231</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>10.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1766</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.1</airTemperature>
+      <dewPointTemperature>5.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>21.6</maximumWindSpeed>
+      <windDirectionBearing>233</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>10.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1767</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>5.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>8.3</maximumWindSpeed>
+      <windDirectionBearing>251</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>7.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1769</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.9</airTemperature>
+      <dewPointTemperature>6.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14</maximumWindSpeed>
+      <windDirectionBearing>234</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>10.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1770</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14</maximumWindSpeed>
+      <windDirectionBearing>232</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>6.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1771</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.4</airTemperature>
+      <dewPointTemperature>4.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>18</maximumWindSpeed>
+      <windDirectionBearing>192</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>11.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>4.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1773</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.8</airTemperature>
+      <dewPointTemperature>5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14</maximumWindSpeed>
+      <windDirectionBearing>257</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>11.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1774</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7</airTemperature>
+      <dewPointTemperature>5.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>16.6</maximumWindSpeed>
+      <windDirectionBearing>253</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>16.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1775</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.9</airTemperature>
+      <dewPointTemperature>5.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>34.9</maximumWindSpeed>
+      <windDirectionBearing>157</windDirectionBearing>
+      <windDirectionCompass>southSouthEast</windDirectionCompass>
+      <windSpeed>23.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA1919</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>34.2</maximumWindSpeed>
+      <windDirectionBearing>223</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>23</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.3</protectionTemperature>
+      <roadSurfaceTemperature>5.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA2151</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.7</airTemperature>
+      <dewPointTemperature>6.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.2</maximumWindSpeed>
+      <windDirectionBearing>243</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>12.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA2284</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>4.8</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>32.8</maximumWindSpeed>
+      <windDirectionBearing>209</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>16.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA2830</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.7</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>10.4</maximumWindSpeed>
+      <windDirectionBearing>123</windDirectionBearing>
+      <windDirectionCompass>eastSouthEast</windDirectionCompass>
+      <windSpeed>5.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.2</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA2831</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.7</airTemperature>
+      <dewPointTemperature>6.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>16</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3535</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>5.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>6.8</maximumWindSpeed>
+      <windDirectionBearing>247</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>4.3</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>5.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3545</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>5.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.9</maximumWindSpeed>
+      <windDirectionBearing>193</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>14.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3735</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>29.9</maximumWindSpeed>
+      <windDirectionBearing>265</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>19.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.7</protectionTemperature>
+      <roadSurfaceTemperature>6.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3799</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.1</airTemperature>
+      <dewPointTemperature>4.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>15.1</maximumWindSpeed>
+      <windDirectionBearing>193</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>14.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.4</protectionTemperature>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3800</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.3</airTemperature>
+      <dewPointTemperature>6.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>33.8</maximumWindSpeed>
+      <windDirectionBearing>188</windDirectionBearing>
+      <windDirectionCompass>south</windDirectionCompass>
+      <windSpeed>15.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>6.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3889</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.5</airTemperature>
+      <dewPointTemperature>6.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>34.2</maximumWindSpeed>
+      <windDirectionBearing>261</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>25.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>7.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA3890</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.4</airTemperature>
+      <dewPointTemperature>6.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>25.2</maximumWindSpeed>
+      <windDirectionBearing>275</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>18.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.4</protectionTemperature>
+      <roadSurfaceTemperature>5.9</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA4203</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.2</airTemperature>
+      <dewPointTemperature>6.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>46.1</maximumWindSpeed>
+      <windDirectionBearing>254</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>27.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>8.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA4207</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.4</airTemperature>
+      <dewPointTemperature>7.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>43.2</maximumWindSpeed>
+      <windDirectionBearing>248</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>19.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>7.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA4417</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>5.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>28.8</maximumWindSpeed>
+      <windDirectionBearing>289</windDirectionBearing>
+      <windDirectionCompass>westNorthWest</windDirectionCompass>
+      <windSpeed>19.8</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA4683</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6</airTemperature>
+      <dewPointTemperature>5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>32.4</maximumWindSpeed>
+      <windDirectionBearing>262</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>18.7</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.7</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA4842</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.7</airTemperature>
+      <dewPointTemperature>7.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>20.5</maximumWindSpeed>
+      <windDirectionBearing>212</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>18</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>7.5</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5130</measurementSiteReference>
+   <measurementTimeDefault>2017-10-15T01:50:00+01:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>15.9</airTemperature>
+      <dewPointTemperature>9.4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>10.1</maximumWindSpeed>
+      <windDirectionBearing>144</windDirectionBearing>
+      <windDirectionCompass>southEast</windDirectionCompass>
+      <windSpeed>8.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>15.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5273</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.6</airTemperature>
+      <dewPointTemperature>6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationIntensity>2</precipitationIntensity>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14.4</maximumWindSpeed>
+      <windDirectionBearing>213</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>11.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>6.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5275</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.4</airTemperature>
+      <dewPointTemperature>5.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>6.3</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5284</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14.4</maximumWindSpeed>
+      <windDirectionBearing>232</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>13.7</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.1</protectionTemperature>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5292</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.5</airTemperature>
+      <dewPointTemperature>4.5</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>11.2</maximumWindSpeed>
+      <windDirectionBearing>206</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>9.4</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.5</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5294</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>4.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>17.3</maximumWindSpeed>
+      <windDirectionBearing>220</windDirectionBearing>
+      <windDirectionCompass>southWest</windDirectionCompass>
+      <windSpeed>16.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.4</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5455</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.8</airTemperature>
+      <dewPointTemperature>5.3</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>22.7</maximumWindSpeed>
+      <windDirectionBearing>239</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>10.1</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5466</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.3</airTemperature>
+      <dewPointTemperature>4</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>42.5</maximumWindSpeed>
+      <windDirectionBearing>260</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>38.9</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5479</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:20:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.2</airTemperature>
+      <dewPointTemperature>4.1</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>5.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5489</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>6.1</airTemperature>
+      <dewPointTemperature>5.2</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>14</maximumWindSpeed>
+      <windDirectionBearing>212</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>7.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.2</protectionTemperature>
+      <roadSurfaceTemperature>6.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5490</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:11:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>5.9</airTemperature>
+      <dewPointTemperature>4.6</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>18.4</maximumWindSpeed>
+      <windDirectionBearing>250</windDirectionBearing>
+      <windDirectionCompass>westSouthWest</windDirectionCompass>
+      <windSpeed>2.2</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-1.8</protectionTemperature>
+      <roadSurfaceTemperature>5.6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5616</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>8.5</airTemperature>
+      <dewPointTemperature>7.7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>19.4</maximumWindSpeed>
+      <windDirectionBearing>270</windDirectionBearing>
+      <windDirectionCompass>west</windDirectionCompass>
+      <windSpeed>12.6</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>0</protectionTemperature>
+      <roadSurfaceTemperature>7.8</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5619</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7.6</airTemperature>
+      <dewPointTemperature>7</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <roadSurfaceTemperature>7.1</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+  <siteMeasurements>
+   <measurementSiteReference>NRA5829</measurementSiteReference>
+   <measurementTimeDefault>2018-01-30T22:10:00+00:00</measurementTimeDefault>
+   <measuredValue index="1">
+    <basicDataValue xsi:type="TemperatureInformation">
+     <period>3600</period>
+     <temperature>
+      <airTemperature>7</airTemperature>
+      <dewPointTemperature>4.9</dewPointTemperature>
+     </temperature>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="2">
+    <basicDataValue xsi:type="PrecipitationInformation">
+     <period>3600</period>
+     <precipitationDetail>
+      <precipitationIntensity>0</precipitationIntensity>
+      <precipitationType>rain</precipitationType>
+     </precipitationDetail>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="3">
+    <basicDataValue xsi:type="WindInformation">
+     <period>3600</period>
+     <wind>
+      <maximumWindSpeed>54.7</maximumWindSpeed>
+      <windDirectionBearing>208</windDirectionBearing>
+      <windDirectionCompass>southSouthWest</windDirectionCompass>
+      <windSpeed>24.5</windSpeed>
+     </wind>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="4">
+    <basicDataValue xsi:type="RoadSurfaceConditionInformation">
+     <period>3600</period>
+     <roadSurfaceConditionMeasurements>
+      <protectionTemperature>-0.4</protectionTemperature>
+      <roadSurfaceTemperature>6</roadSurfaceTemperature>
+     </roadSurfaceConditionMeasurements>
+    </basicDataValue>
+   </measuredValue>
+   <measuredValue index="5">
+    <basicDataValue xsi:type="VisibilityInformation">
+     <period>3600</period>
+     <visibility>
+      <visibilityValue>2000</visibilityValue>
+     </visibility>
+    </basicDataValue>
+   </measuredValue>
+  </siteMeasurements>
+ 
+ </payloadPublication>
+</d2LogicalModel>
